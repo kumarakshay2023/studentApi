@@ -35,14 +35,4 @@ app.use(globalErrorHandler);
 
 ;
 
-// // Initialize socket with server and app
-// initializeSocket(server, app);
-// getRequestController(app.get("io"))
-// liveChatSupportController(app.get("io"))
-// // initializeProjectReminders(app);
-// // sendJobNotificationToProvider()
-// // scheduleProjectReminders(app)
-// resetLemon();
-
-// Export the server
 export default server;

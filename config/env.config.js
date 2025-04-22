@@ -18,16 +18,6 @@ const env = cleanEnv(variables, {
   }),
 
   ENABLE_FEATURE: bool({ default: false }), // Example boolean variable
-  // JWT_SECRET: str(),
-  // GOOGLE_CLIENT_ID: str(),
-  // GOOGLE_CLIENT_SECRET: str(),
-  // CALLBACK_URL: str(),
-  // SALT: str(),
-  // CLOUDINARY_CLOUD_NAME: str(),
-  // CLOUDINARY_API_KEY: str(),
-  // CLOUDINARY_API_SECRET: str(),
-  // RAZORPAY_KEY_SECRET : str(),
-  // RAZORPAY_KEY_ID : str()
 });
  
 export default env;
