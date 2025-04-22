@@ -1,0 +1,35 @@
+{
+  "name": "studentapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "imports": {
+    "#models/*": "./src/models/*.model.js",
+    "#controllers/*": "./src/controllers/*.controller.js",
+    "#middlewares/*": "./src/middlewares/*.middleware.js",
+    "#utils/*": "./src/utils/*.util.js",
+    "#configs/*": "./config/*.config.js",
+    "#validations/*": "./src/validations/*.validation.js",
+    "#routes/*": "./src/routes/*.route.js",
+    "#root/*": "./*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "envalid": "^8.0.0",
+    "express": "^5.1.0",
+    "http-status": "^2.1.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.14.1",
+    "sequelize": "^6.37.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
